@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Questo rende il bottone circolare */
+    padding: 0;
+    background: #0080ff;
+    border: none;
+    color: white;
+    font-size: 18px; /* Puoi regolare la dimensione del testo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #005bbf;
+}
