@@ -1,43 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #181818;
+    background-color: #131313;
     color: white;
     font-family: Arial, sans-serif;
 }
 
 input {
     width: 100px;
-    height: 40px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 40px;
     text-align: center;
     border: none;
     outline: none;
-    border-radius: 8px;
     background: transparent;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 button {
     width: 70px;
     height: 70px;
-    border-radius: 50%; /* Questo rende il bottone circolare */
-    padding: 0;
-    background: #0080ff;
-    border: none;
+    background-color: #f06c00;
     color: white;
+    border: none;
+    border-radius: 50%; /* Questo rende il bottone circolare */
     font-size: 18px; /* Puoi regolare la dimensione del testo */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
     transition: background 0.3s ease;
 }
 
 button:hover {
-    background: #005bbf;
+    background-color: #f08f00;
+}
+
+#reset, #clear {
+    background-color: #f00;
+}
+
+#reset:hover, #clear:hover {
+    background-color: #f22;
 }
